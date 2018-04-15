@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": [true],
+    "ordered-imports": [true, { "grouped-imports": true }],
+    "interface-name": false,
+    "no-console": false,
+    "member-access": [true, "no-public"],
+    "object-literal-sort-keys": false,
+    "import-name": false,
+    "variable-name": false,
+    "function-name": false,
+    "object-shorthand-properties-first": false
+  }
+}
